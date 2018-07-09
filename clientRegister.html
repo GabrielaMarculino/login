@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cadastrar cliente - System</title>
+</head>
+<body>
+    <fieldset>
+        <form action="dbClient.php" method="POST">
+            NOME: &nbsp <input type="text" name="name">
+            <br><br>
+            CPF: &nbsp <input type="number" name="cpf">
+            <br><br>
+            RG: &nbsp <input type="number" name="rg">
+            <br><br>
+            TELEFONE: &nbsp <input type="tel" name="phone">
+            <br><br>
+            E-MAIL: &nbsp <input type="text" name="email">
+            <br><br>
+            CEP: &nbsp <input type="number" name="zip">
+            <br><br>
+            <input type="submit" value="Cadastrar">
+            &nbsp <input type="reset" value="Limpar">
+            &nbsp <input type="button" value="Voltar" onclick="javascript: location.href='menu.html'">
+        </form>
+    </fieldset>
+</body>
+</html>
